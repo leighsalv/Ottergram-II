@@ -1,6 +1,6 @@
 # Ottergram II
 
-A simple web page that includes a gallery of five otter images written in HTML, CSS, and Javascript. An otter image is displayed on the screen when the user clicks on a thumbnail photo. Images can be traversed left and right by clicking the arrows. This is for **Homework 1 - CPSC 473 Front-End Development course**.
+A simple web page that includes a gallery of five otter images written in **HTML, CSS, and Javascript**. An otter image is displayed on the screen when the user clicks on a thumbnail photo. Images can be traversed left and right by clicking the arrows. This is for **Homework 1 - CPSC 473 Front-End Development course**.
 
 **Functionalities & Features**
 + a thumbnail list to traverse to different otter image thumbnails.
@@ -13,11 +13,12 @@ A simple web page that includes a gallery of five otter images written in HTML, 
 **Clone** or **download** the repo
 
 ### Install
-  `[Node.js]`(https://nodejs.org/en/) and follow the prompts.
+  [`Node.js`](https://nodejs.org/en/) and follow the prompts.
 
   `browser-sync` in terminal to automatically reload browser: `npm install -g browser-sync`
 
 ### Run In Terminal
-cd/`directory-of-ottergram`/Ottergram-II-master change directory-of-ottergram to the directory in which you downloaded the repo
+cd/`directory-of-ottergram`/Ottergram-II-master
+> change `directory-of-ottergram` to the directory in which you downloaded the repo
 
-browser-sync start --server --browser "Google Chrome" --files "*.html, stylesheets/*.css, scripts/*.js"
+`browser-sync start --server --browser "Google Chrome" --files "*.html, stylesheets/*.css, scripts/*.js"` to view Ottergram on browser.
