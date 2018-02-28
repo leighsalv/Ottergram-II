@@ -22,70 +22,78 @@
   </header>
   <main class="main-content">
     <ul class="thumbnail-list">
-      <!--unordered list (bulleted)-->
       <li class="thumbnail-item">
-        <!--list-->
-        <a href="img/otter1.jpg">
-          <!--a: anchor tag; makes something clickable to take user to another page-->
-          <!--href: resource the anchor tag points to - usually a web address; '#'' is just a dummy tag / makes browser scroll to top-->
-          <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
-          <!--alt: txt that replaces img when unable to load-->
-          <span class="thumbnail-title">Barry</span>
-        </a>
+        <a href="img/otter1.jpg" data-image-role="trigger" data-image-title="Stayin' Alive" data-image-url="img/otter1.jpg">
+            <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
+            <span class="thumbnail-title">Barry</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="img/otter2.jpg">
-          <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
-          <span class="thumbnail-title">Robin</span>
-        </a>
+        <a href="img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep Is Your Love" data-image-url="img/otter2.jpg">
+            <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
+            <span class="thumbnail-title">Robin</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="img/otter3.jpg">
-          <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
-          <span class="thumbnail-title">Maurice</span>
-        </a>
+        <a href="img/otter3.jpg" data-image-role="trigger" data-image-title="You Should Be Dancing" data-image-url="img/otter3.jpg">
+            <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
+            <span class="thumbnail-title">Maurice</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="#img/otter4.jpg">
-          <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
-          <span class="thumbnail-title">Lesley</span>
-        </a>
+        <a href="img/otter4.jpg" data-image-role="trigger" data-image-title="Night Fever" data-image-url="img/otter4.jpg">
+            <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
+            <span class="thumbnail-title">Lesley</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="img/otter5.jpg">
-          <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
-          <span class="thumbnail-title">Barbara</span>
-        </a>
+        <a href="img/otter5.jpg" data-image-role="trigger" data-image-title="To Love Somebody" data-image-url="img/otter5.jpg">
+            <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
+            <span class="thumbnail-title">Barbara</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="img/FlexboxFroggy Lvl24.png">
-          <img class="thumbnail-image" src="img/FlexboxFroggy Lvl24.png" alt="Flexbox Froggy Level 24">
-          <span class="thumbnail-title">Flexbox Froggy</span>
-        </a>
+        <a href="img/FleboxFroggy Lvl24.png" data-image-role="trigger" data-image-title="Flexbox Froggy Completed" data-image-url="img/FlexboxFroggy Lvl24.png">
+            <img class="thumbnail-image" src="img/FlexboxFroggy Lvl24.png" alt="Flexbox Froggy Completed">
+            <span class="thumbnail-title">Flexbox Froggy</span>
+          </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="img/GridGarden Lvl28.png">
-          <img class="thumbnail-image" src="img/GridGarden Lvl28.png" alt="Grid Garden Level 28">
-          <span class="thumbnail-title">Grid Garden</span>
-        </a>
+        <a href="img/GridGarden Lvl28.png" data-image-role="trigger" data-image-title="Grid Garden Completed" data-image-url="img/GridGarden Lvl28.png">
+            <img class="thumbnail-image" src="img/GridGarden Lvl28.png" alt="Grid Garden Completed">
+            <span class="thumbnail-title">Grid Garden</span>
+          </a>
       </li>
     </ul>
 
-    <!--DIV: generic container for content-->
-    <div class="detail-image-container">
-      <div class="detail-image-frame">
-        <!-- constrains size of detail-image -->
-        <img class="detail-image" src="img/otter1.jpg" alt="">
-        <span class="detail-image-title">Stayin' Alive</span>
+
+      <!--DETAILED IMAGE FRAME-->
+      <div class="detail-image-container">
+
+        <!--LEFT BUTTON to navigate detailed image-->
+        <div class="detail-image-container">
+          <div class="detail-image-left-button" data-image-button="button">
+            <img class="btn" src="img/leftBtn.png" alt="<">
+          </div>
+
+        <div class="detail-image-frame" data-image-role="frame">
+          <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
+          <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
+        </div>
+
+        <!--RIGHT BUTTON to navigate detailed image-->
+        <div class="detail-image-right-button" data-image-button="button">
+          <img class="btn" src="/img/rightBtn.png" alt=">">
+        </div>
+        
       </div>
+
     </div>
+
   </main>
+
+  <!--LINK JAVASCRIPT FILE-->
+  <script src="scripts/main.js" charset="utf-8"></script>
 </body>
 
 </html>
