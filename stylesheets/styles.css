@@ -122,11 +122,13 @@ a {
   font-size: 40px;
 }
 
-.btn {
-  width: 10%;
-  height: 10%;
-  float: left;
-  margin: 0;
-  margin-left: 170px;
+.left-btn {
+  width: 20%;
+  height: 20%;
+  margin-left: 80%;
+}
 
+.right-btn {
+  width: 20%;
+  height: 20%;
 }
