@@ -21,11 +21,11 @@ A simple web page that includes a gallery of five otter images written in **HTML
 
 ### Run In Terminal
 
-cd/`directory-of-ottergram`/Ottergram-II-master
-
-> change directory-of-ottergram to the directory in which you downloaded the repo
+`cd/directory-of-ottergram/Ottergram-II-master` _change directory-of-ottergram to the directory in which you downloaded the repo_
 
 `browser-sync start --server --browser "Google Chrome" --files "*.html, stylesheets/*.css, scripts/*.js"` to view Ottergram on browser.
 
-### Demo
+
+## Demo
+
 ![alt text](img/ottergramDemo.gif)
